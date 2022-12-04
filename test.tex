@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\usepackage{geometry}
+\usepackage{fontspec}
+\usepackage{xcolor}
+
+\geometry{
+  paperheight=1.5cm\relax,
+  paperwidth=7.5cm\relax,
+  marginparwidth=0.5cm,
+  left=0.5cm,
+  top=0.5cm
+}
+
+\newfontfamily\fish[%
+    Path = {./} ,
+    Extension = .otf ,
+    UprightFont = * ,
+    ]{Fish}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\textcolor{orange}{\fish \Huge 012345}
+
+\end{document}
+
