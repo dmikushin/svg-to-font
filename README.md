@@ -26,7 +26,7 @@ find . -name "*.svg" -exec scour -i {} -o ../output/{} \;
 
 * Click `Element -> Font Info` and assign a font name
 * Import SVG image into each glyph
-* Generate font
+* Generate font and save it as `Fish.otf` in the current folder
 
 <img src="screenshot2.png">
 
